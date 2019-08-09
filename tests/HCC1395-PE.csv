@@ -1,0 +1,7 @@
+sample,fastq1,fastq2
+HCC1395-1,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_tumor_rep1_r1.fastq.gz,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_tumor_rep1_r2.fastq.gz
+HCC1395-2,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_tumor_rep2_r1.fastq.gz,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_tumor_rep2_r2.fastq.gz
+HCC1395-3,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_tumor_rep3_r1.fastq.gz,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_tumor_rep3_r2.fastq.gz
+HCC1395BL-1,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_normal_rep1_r1.fastq.gz,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_normal_rep1_r2.fastq.gz
+HCC1395BL-2,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_normal_rep2_r1.fastq.gz,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_normal_rep2_r2.fastq.gz
+HCC1395BL-3,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_normal_rep3_r1.fastq.gz,https://github.com/ampatchlab/test-datasets/raw/rnaseq/HCC1395/testdata/hcc1395_normal_rep3_r2.fastq.gz

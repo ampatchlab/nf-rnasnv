@@ -1,0 +1,44 @@
+module_order:
+    - fastqc:
+        name: 'FastQC (raw)'
+        anchor: 'fastqc-raw'
+        info: >
+            is a quality control tool for high throughput sequence data, written by Simon Andrews
+            at the Babraham Institute in Cambridge. This section of the report shows FastQC results
+            prior to adapter trimming.
+        target: 'FastQC'
+        path_filters:
+            - './fastqc-raw/*_fastqc.zip'
+    - cutadapt
+    - fastqc:
+        name: 'FastQC (trimmed)'
+        anchor: 'fastqc-trimmed'
+        info: >
+            is a quality control tool for high throughput sequence data, written by Simon Andrews
+            at the Babraham Institute in Cambridge. This section of the report shows FastQC results
+            after adapter trimming.
+        target: 'FastQC'
+        path_filters:
+            - './fastqc-trimmed/*_fastqc.zip'
+    - star
+    - picard
+    - bcftools:
+        name: 'BCFtools (raw)'
+        anchor: 'bcftools-raw'
+        info: >
+            contains utilities for variant calling and manipulating VCFs and BCFs.
+        target: 'BCFtools'
+        path_filters:
+            - './bcftools-raw/*.stats.txt'
+    - bcftools:
+        name: 'BCFtools (filtered)'
+        anchor: 'bcftools-filtered'
+        info: >
+            contains utilities for variant calling and manipulating VCFs and BCFs.
+        target: 'BCFtools'
+        path_filters:
+            - './bcftools-filtered/*.filtered.stats.txt'
+
+extra_fn_clean_exts:
+    - type: 'regex'
+      pattern: '\.filtered\.vcf\.gz$'
