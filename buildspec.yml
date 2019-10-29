@@ -17,7 +17,8 @@ phases:
       - apt-get install -y graphviz
   build:
     commands:
-      - curl -fsSL get.nextflow.io | CAPSULE_LOG=none bash
+      - export CAPSULE_LOG=none
+      - curl -fsSL get.nextflow.io | bash
       - |
         ./nextflow -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2 run . \
           -ansi-log false \
