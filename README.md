@@ -1,7 +1,7 @@
 # ampatchlab/nf-rnasnv
 
 [![Build Status](https://codebuild.ap-southeast-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoicDJIMmhoK3JibzFVVUxwOXBDcXlISk5qV0tGRmYrZVZzUlVRS1VNZlh2VW9tWlpBeis5Q2VJb2piUy85WngrbHZYK0JzaVZySVExbkVuQ25WOFoyNGJ3PSIsIml2UGFyYW1ldGVyU3BlYyI6InFWWWxQVTBwQ2RYeUpBazMiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)](https://ap-southeast-2.console.aws.amazon.com/codesuite/codebuild/projects/nf-rnasnv/history)
-[![Nextflow](https://img.shields.io/badge/nextflow-%E2%89%A519.10.0-brightgreen.svg)](https://www.nextflow.io/)
+[![Nextflow](https://img.shields.io/badge/nextflow-%E2%89%A520.01.0-brightgreen.svg)](https://www.nextflow.io/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 RNA-Seq variant calling nextflow pipeline
