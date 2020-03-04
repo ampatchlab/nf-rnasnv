@@ -195,8 +195,8 @@ in later releases.
 
 1. Obtain the curent GRCh37 FASTA and GTF files:
 ```
-$ wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/GRCh37_mapping/GRCh37.primary_assembly.genome.fa.gz
-$ wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/GRCh37_mapping/gencode.v32lift37.annotation.gtf.gz
+$ wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/GRCh37_mapping/GRCh37.primary_assembly.genome.fa.gz
+$ wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/GRCh37_mapping/gencode.v33lift37.annotation.gtf.gz
 ```
 
 2. Split the GRCh37 FASTA into separate chromosomes/contigs:
