@@ -1154,8 +1154,8 @@ def check_params() {
         die()
     }
 
-    params.fasta = params.genome ? params.genomes[ params.genome ].fasta : null
-    params.gtf = params.genome ? params.genomes[ params.genome ].gtf : null
+    params.fasta = params.genome in params.genomes ? params.genomes[ params.genome ].fasta : null
+    params.gtf = params.genome in params.genomes ? params.genomes[ params.genome ].gtf : null
 
     if (!params.fasta) {
         log.error("A reference FASTA file is required. Please use the `--fasta` option.")
